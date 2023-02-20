@@ -11,11 +11,33 @@
     --light: rgba(254, 255, 254, 1);
 }
 
-/*-------HEADER-------*/
+/*-------Debug-------*/
 .debug header{
     height: 70px;
 }
 
+.debug [class^="col_"]
+{
+    height: 300px; 
+    border: 2px solid blue;
+}
+
+.debug .strategic_planning{
+    background-color: var(--primary);
+    
+}
+
+.debug .section_heading{
+    height: 140px;
+    background-color: cadetblue;
+}
+
+.debug .section_heading .testimonial{
+    height: 140px;
+    background-color: darkgoldenrod;
+}
+
+/*-------HEADER-------*/
 #site_header{
     background-color: var(--secondary);
 }
@@ -26,7 +48,7 @@
     width: 80%;
     max-width: 1152px;
     background-color: var(--light);
-    border: 2px solid rgb(60, 255, 0);
+    border: 2px solid rgb(214, 3, 133);
     margin: auto;
 }
 
@@ -39,13 +61,17 @@
 [class^="col_"]
 { 
     padding: 0 1rem; 
-
 }
 
-.debug [class^="col_"]
-{
-    height: 300px; 
-    border: 2px solid blue;
+.d_flex{
+    display: flex;
+}
+.testimonials{
+    background-color: red;
+}
+.testimonial{
+    margin:1rem 0;
+    background-color: yellow;
 }
 /* col 1 di 12-------------------------------- */
 .col_1 {
