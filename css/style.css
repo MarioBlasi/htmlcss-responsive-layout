@@ -11,42 +11,57 @@
     --light: rgba(254, 255, 254, 1);
 }
 
-/*-------Debug-------*/
-.debug header{
-    height: 70px;
-}
-
-.debug [class^="col_"]
+[class^="col_"]
 {
     height: 300px; 
     border: 4px solid rgb(194, 107, 7);
     
 }
 /* aspect-ratio:1/1; */
-.debug .strategic_planning{
+.strategic_planning{
     background-color: var(--primary);
     
 }
 
-.debug .section_heading{
+.section_heading .testimonial{
     height: 140px;
     border: 4px solid rgb(51, 255, 0);
 }
 
-.debug .section_heading .testimonial{
-    height: 140px;
-}
-
-.debug footer{
+footer{
     height: 150px;
     background-color: var(--dark);
 }
 
 
 /*-------HEADER-------*/
+
 #site_header{
     background-color: var(--secondary);
+    justify-content: space-evenly;
 }
+header{
+    height: 70px;
+}
+
+.bar{
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    
+   
+}
+.logo_header{
+   
+}
+.text_header{
+    
+    
+}
+.btn_header{
+   
+}
+
 
 /* Utilities */
 
