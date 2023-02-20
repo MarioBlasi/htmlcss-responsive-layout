@@ -13,7 +13,7 @@
 
 /*-------HEADER-------*/
 .debug header{
-    height: 80px;
+    height: 70px;
 }
 
 #site_header{
@@ -26,7 +26,8 @@
     width: 80%;
     max-width: 1152px;
     background-color: var(--light);
-    border: 1px solid red;
+    border: 2px solid rgb(60, 255, 0);
+    margin: auto;
 }
 
 .row{
@@ -38,12 +39,13 @@
 [class^="col_"]
 { 
     padding: 0 1rem; 
+
 }
 
 .debug [class^="col_"]
 {
     height: 300px; 
-    border: 1px dashed;
+    border: 2px solid blue;
 }
 
 
