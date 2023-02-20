@@ -20,6 +20,7 @@
 {
     height: 300px; 
     border: 2px solid blue;
+    
 }
 /* aspect-ratio:1/1; */
 .debug .strategic_planning{
@@ -53,7 +54,7 @@
     width: 80%;
     max-width: 1152px;
     background-color: var(--light);
-    border: 2px solid rgb(214, 3, 133);
+   border: 2px solid rgb(51, 255, 0);
     margin: auto;
 }
 
@@ -66,7 +67,7 @@
 
 [class^="col_"]
 { 
-    padding: 0 1rem; 
+    padding: 0 0rem; 
 }
 
 .d_flex{
@@ -157,25 +158,22 @@
     width: calc(100% / 12 * 11);
 }
 .col_lg_12 {
-    width: 100%;
+     width: 100%;
 }
 
 section,
 .demo_application{
-    padding: 2rem 0;
+   background-color: rgba(210, 105, 30, 0.247);
 }
 
 /* Responsive Layout*/
-@media screen and (min-width:480px)
+@media screen and (max-width:480px)
 {
     .col_md_4{
-        width: calc(100% / 12 * 4);
+        width: 100%;
     }
     .col_md_8{
-        width: calc(100% / 12 * 8);
-    }
-    .row{
-        align-items: center;
+        width: 100%;
     }
     
 }
