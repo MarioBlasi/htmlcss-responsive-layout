@@ -18,12 +18,13 @@
 
 .debug [class^="col_"]
 {
-    height: 200px; 
+    height: 300px; 
     border: 2px solid blue;
 }
-
+/* aspect-ratio:1/1; */
 .debug .strategic_planning{
     background-color: var(--primary);
+    
 }
 
 .debug .section_heading{
@@ -60,7 +61,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 [class^="col_"]
@@ -163,12 +164,22 @@ section,
 .demo_application{
     padding: 2rem 0;
 }
-.get_started,
-.benefits,
-.strategic_planning{
-    background-color: var(--primary);
-}
+
 /* Responsive Layout*/
+@media screen and (min-width:480px)
+{
+    .col_md_4{
+        width: calc(100% / 12 * 4);
+    }
+    .col_md_8{
+        width: calc(100% / 12 * 8);
+    }
+    .row{
+        align-items: center;
+    }
+    
+}
+
 @media screen and (min-width:768px)
 {
     .col_md_4{
@@ -177,6 +188,7 @@ section,
     .col_md_8{
         width: calc(100% / 12 * 8);
     }
+    
 }
 
 @media screen and (min-width:1200px)
@@ -187,4 +199,5 @@ section,
     .col_md_8{
         width: calc(100% / 12 * 8);
     }
+    
 }
