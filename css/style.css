@@ -7,6 +7,7 @@
 :root {
   --primary: rgba(151, 146, 228, 1);
   --secondary: rgba(0, 133, 252, 1);
+  --heavenly: rgb(181, 221, 255);
   --dark: rgba(50, 51, 50, 1);
   --light: rgba(254, 255, 254, 1);
 }
@@ -33,7 +34,9 @@
 header {
   height: 70px;
 }
-
+img {
+  max-width: 100%;
+}
 .bar {
   width: 100%;
   display: flex;
@@ -72,22 +75,58 @@ header {
   font-weight: bold;
 }
 /* ----------Demo application----------------- */
-.box_celeste {
-  background-color: aqua;
-}
-.fa-file-code {
+
+.fa-file-code,
+.fa-compass-drafting,
+.fa-laptop-code,
+.fa-bullhorn {
   font-size: 100px;
   color: var(--secondary);
 }
-.clean_code {
+.clean_code,
+.web_design,
+.developement,
+.branding {
   text-align: center;
-  margin-top: 1rem;
+
+  padding: 1rem;
+  background-color: var(--heavenly);
+  border-radius: 2rem;
+  margin: 1rem;
 }
-h3 {
+.clean_code > h3 {
+  color: var(--secondary);
+}
+.web_design > h3 {
+  color: var(--secondary);
+}
+.developement > h3 {
+  color: var(--secondary);
+}
+.branding > h3 {
   color: var(--secondary);
 }
 /* ---------strategic_planning---------------- */
 
+/* --------section_heading---------------- */
+.title {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--heavenly);
+  border-radius: 2rem;
+  margin: 1rem;
+}
+.avatar > img {
+  border-radius: 100%;
+  width: 61%;
+  margin: 1rem 2rem;
+}
+.bio {
+  color: var(--light);
+  text-align: left;
+  margin-right: 16rem;
+  margin-top: 2rem;
+}
 /* Utilities */
 
 .container {
@@ -119,7 +158,8 @@ h3 {
 .testimonial {
   margin: 1rem 0;
   background-color: var(--primary);
-  height: 140px;
+  border-radius: 2rem;
+  height: 180px;
 }
 
 /* col -------------------------------- */
