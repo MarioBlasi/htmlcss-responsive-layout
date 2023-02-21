@@ -133,10 +133,16 @@ img {
 /* ----END----testimonials---------------- */
 
 /* --------benefits---------------- */
-
+.title_benefits {
+  text-align: center;
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 2rem;
+}
 .benefits {
   background-color: var(--primary);
   text-align: left;
+  padding-bottom: 2rem;
 }
 .text_purple {
   color: var(--primary);
@@ -164,19 +170,64 @@ img {
   font-size: 80px;
 }
 
+.col_md_6,
+.col_lg_4 {
+  background-color: var(--primary);
+}
 /* ----END----benefits---------------- */
 
 /* ----about---------------- */
+.about {
+  height: 500px;
+  text-align: center;
+}
+.text_about > h1 {
+  color: var(--primary);
+  font-size: 50px;
+  padding: 1rem;
+}
 
+.text_about {
+  text-align: left;
+  padding: 1rem 5rem 0rem 11rem;
+  line-height: 2;
+}
+.img_about > img {
+  width: 65%;
+  border-radius: 10rem;
+  padding: 1rem;
+}
+.text_about_purple {
+  color: var(--primary);
+  text-align: left;
+  padding: 4rem;
+  margin-top: -3rem;
+}
+.btn_about_purple {
+  border-radius: 2rem;
+  width: 12rem;
+  height: 2.2rem;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: var(--primary);
+}
 /* ----END----about---------------- */
+/* -------get_started---------------- */
 
+.get_started {
+  height: 450px;
+  border: solid 1px rgb(0, 255, 64);
+  text-align: center;
+}
+
+/* ----END----get_started---------------- */
 /* Utilities */
 
 .container {
   width: 80%;
   max-width: 1152px;
   background-color: var(--light);
-
   margin: auto;
 }
 
@@ -240,7 +291,6 @@ img {
   width: 100%;
   width: calc(100% / 12 * 4);
   padding: 0.5rem;
-  border: 2px solid var(--primary);
 }
 
 /* ----------------footer-------------------- */
