@@ -78,6 +78,34 @@ img {
 /*---END-------HEADER-------*/
 
 /* ----------Demo application----------------- */
+.rect_8 {
+  background-color: var(--heavenly);
+
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  border-radius: 2rem;
+}
+
+.text_demo {
+  width: 50%;
+  height: 100%;
+  float: left;
+
+  text-align: left;
+  padding: 2rem;
+}
+.phone_demo {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+.phone_demo > img {
+  width: 60%;
+  margin-left: 7rem;
+  margin-top: 2.1rem;
+}
+/* ---------END text Demo----------------- */
 .fa-file-code,
 .fa-compass-drafting,
 .fa-laptop-code,
@@ -90,7 +118,6 @@ img {
 .developement,
 .branding {
   text-align: center;
-
   padding: 1rem;
   background-color: var(--heavenly);
   border-radius: 2rem;
