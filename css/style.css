@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: "PT Sans", sans-serif;
+}
 :root {
   --primary: rgba(151, 146, 228, 1);
   --secondary: rgba(0, 133, 252, 1);
@@ -14,7 +16,6 @@
 
 [class^="col_"] {
   height: 300px;
-  border: 1px solid rgb(194, 107, 7);
 }
 /* aspect-ratio:1/1; */
 .strategic_planning {
@@ -74,8 +75,9 @@ img {
   border: none;
   font-weight: bold;
 }
-/* ----------Demo application----------------- */
+/*---END-------HEADER-------*/
 
+/* ----------Demo application----------------- */
 .fa-file-code,
 .fa-compass-drafting,
 .fa-laptop-code,
@@ -106,13 +108,14 @@ img {
 .branding > h3 {
   color: var(--secondary);
 }
+/* ----END------Demo application----------------- */
+
 /* ---------strategic_planning---------------- */
 
-/* --------section_heading---------------- */
+/* --------testimonials---------------- */
 .title {
   text-align: center;
   padding: 1rem;
-  background-color: var(--heavenly);
   border-radius: 2rem;
   margin: 1rem;
 }
@@ -127,13 +130,53 @@ img {
   margin-right: 16rem;
   margin-top: 2rem;
 }
+/* ----END----testimonials---------------- */
+
+/* --------benefits---------------- */
+
+.benefits {
+  background-color: var(--primary);
+  text-align: left;
+}
+.text_purple {
+  color: var(--primary);
+  font-size: 12px;
+  width: 70%;
+  padding: 0.5rem;
+  height: 100%;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  margin-left: 2rem;
+
+  /*padding: 2rem 2rem 2rem 2rem;*/
+}
+.btn_purple {
+  border-radius: 2rem;
+  width: 8rem;
+  height: 2.2rem;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background-color: var(--primary);
+}
+.text_purple > h1 {
+  font-size: 80px;
+}
+
+/* ----END----benefits---------------- */
+
+/* ----about---------------- */
+
+/* ----END----about---------------- */
+
 /* Utilities */
 
 .container {
   width: 80%;
   max-width: 1152px;
   background-color: var(--light);
-  border: 3px solid black;
+
   margin: auto;
 }
 
@@ -151,15 +194,12 @@ img {
 .d_flex {
   display: flex;
 }
-.testimonials {
-  background-color: red;
-  margin: 1rem;
-}
+
 .testimonial {
   margin: 1rem 0;
   background-color: var(--primary);
   border-radius: 2rem;
-  height: 180px;
+  height: 200px;
 }
 
 /* col -------------------------------- */
@@ -198,6 +238,9 @@ img {
 }
 .col_12 {
   width: 100%;
+  width: calc(100% / 12 * 4);
+  padding: 0.5rem;
+  border: 2px solid var(--primary);
 }
 
 /* ----------------footer-------------------- */
