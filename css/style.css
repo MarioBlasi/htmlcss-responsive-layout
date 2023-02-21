@@ -16,7 +16,7 @@ body {
 
 [class^="col_"] {
   height: 300px;
-  border: 1px solid rgb(194, 107, 7);
+  /* border: 1px solid rgb(194, 107, 7);*/
 }
 /* aspect-ratio:1/1; */
 .strategic_planning {
@@ -80,11 +80,9 @@ img {
 .col_md_8 {
   background-color: var(--heavenly);
   border-radius: 2rem;
-  border-radius: 2rem;
 }
 .text_demo {
   width: 50%;
-  height: 100%;
   float: left;
   text-align: left;
   padding: 2rem;
@@ -129,14 +127,13 @@ img {
 /* ----END------Demo application----------------- */
 
 /* ---------strategic_planning---------------- */
-
 .left_planning {
-  float: right;
-  width: 40%;
+  width: 50%;
+  float: left;
 }
 .right_planning {
-  float: left;
-  width: 40%;
+  width: 50%;
+  float: right;
 }
 
 /* ---END------strategic_planning---------------- */
@@ -206,9 +203,6 @@ img {
 
 /* ----about---------------- */
 
-.about {
-  background-color: var(--light);
-}
 .text_about > h1 {
   color: var(--primary);
   font-size: 50px;
