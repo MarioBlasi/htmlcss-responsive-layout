@@ -30,9 +30,6 @@ body {
 
 /*-------HEADER-------*/
 
-#site_header {
-}
-
 header {
   height: 70px;
 }
@@ -79,14 +76,12 @@ img {
 /*---END-------HEADER-------*/
 
 /* ----------Demo application----------------- */
-.rectangle_8 {
+
+.col_md_8 {
   background-color: var(--heavenly);
-  width: 100%;
-  height: 100%;
   border-radius: 2rem;
   border-radius: 2rem;
 }
-
 .text_demo {
   width: 50%;
   height: 100%;
@@ -105,6 +100,7 @@ img {
   margin-top: 2.1rem;
 }
 /* ---------END text Demo----------------- */
+
 .fa-file-code,
 .fa-compass-drafting,
 .fa-laptop-code,
@@ -113,15 +109,10 @@ img {
   color: var(--secondary);
   padding-top: 2rem;
 }
-.clean_code,
-.web_design,
-.developement,
-.branding {
+.col_md_4 {
   text-align: center;
   background-color: var(--heavenly);
   border-radius: 2rem;
-  width: 100%;
-  height: 100%;
 }
 .clean_code > h3 {
   color: var(--secondary);
@@ -138,16 +129,24 @@ img {
 /* ----END------Demo application----------------- */
 
 /* ---------strategic_planning---------------- */
-/**.strategic_planning {
-}
+
 .left_planning {
+  float: right;
+  width: 40%;
 }
 .right_planning {
-}*/
-*
+  float: left;
+  width: 40%;
+}
+
 /* ---END------strategic_planning---------------- */
 
 /* --------testimonials---------------- */
+.testimonial {
+  margin: 1rem;
+  background-color: var(--primary);
+  border-radius: 2rem;
+}
 .title {
   text-align: center;
   padding: 1rem;
@@ -182,15 +181,11 @@ img {
 .text_purple {
   color: var(--primary);
   font-size: 12px;
-  width: 70%;
   padding: 0.5rem;
-  height: 100%;
   align-items: center;
   background-color: white;
   border-radius: 1rem;
   margin-left: 2rem;
-
-  /*padding: 2rem 2rem 2rem 2rem;*/
 }
 .btn_purple {
   border-radius: 2rem;
@@ -204,17 +199,15 @@ img {
 .text_purple > h1 {
   font-size: 80px;
 }
-
-.col_md_6,
 .col_lg_4 {
   background-color: var(--primary);
 }
 /* ----END----benefits---------------- */
 
 /* ----about---------------- */
+
 .about {
-  height: 500px;
-  text-align: center;
+  background-color: var(--light);
 }
 .text_about > h1 {
   color: var(--primary);
@@ -250,6 +243,7 @@ img {
 /* ----END----about---------------- */
 
 /* -------get_started---------------- */
+
 .col_md_12 {
   background-color: var(--primary);
 }
@@ -327,13 +321,6 @@ footer {
   display: flex;
 }
 
-.testimonial {
-  margin: 1rem 0;
-  background-color: var(--primary);
-  border-radius: 2rem;
-  height: 200px;
-}
-
 /* col -------------------------------- */
 .col_1 {
   width: calc(100% / 12 * 1);
@@ -369,8 +356,6 @@ footer {
   width: calc(100% / 12 * 11);
 }
 .col_12 {
-  width: 100%;
-  width: calc(100% / 12 * 4);
   padding: 0.5rem;
 }
 
