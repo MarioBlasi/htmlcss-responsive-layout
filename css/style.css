@@ -213,14 +213,46 @@ img {
   background-color: var(--primary);
 }
 /* ----END----about---------------- */
-/* -------get_started---------------- */
 
+/* -------get_started---------------- */
+.col_md_12 {
+  background-color: var(--primary);
+}
+.text_get {
+  line-height: 3;
+  color: var(--light);
+}
+.text_get > h2 {
+  font-size: 40px;
+}
+.text_get > h1 {
+  font-size: 80px;
+  color: rgb(248, 211, 3);
+}
+.text_get > p {
+  line-height: 2;
+  margin-bottom: 0.5rem;
+}
 .get_started {
-  height: 450px;
+  height: 650px;
   border: solid 1px rgb(0, 255, 64);
   text-align: center;
+  background-color: var(--primary);
 }
-
+.btn_get_started {
+  border-radius: 2rem;
+  width: 12rem;
+  height: 3.5rem;
+  border: none;
+  font-weight: bold;
+  color: var(--primary);
+  background-color: var(--light);
+  font-size: medium;
+  margin-bottom: 2rem;
+}
+.btn_get > p {
+  color: var(--light);
+}
 /* ----END----get_started---------------- */
 /* Utilities */
 
