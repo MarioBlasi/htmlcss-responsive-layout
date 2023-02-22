@@ -125,6 +125,7 @@ img {
   font-weight: bold;
   color: var(--light);
   background-color: var(--secondary);
+  margin-top: 2rem;
 }
 .clean_code > h3 {
   color: var(--secondary);
@@ -142,14 +143,31 @@ img {
 
 /* ---------strategic_planning---------------- */
 .left_planning {
-  width: 50%;
+  width: 40%;
   float: left;
 }
+
 .right_planning {
-  width: 50%;
+  width: 40%;
   float: right;
 }
+.right_planning > img {
+  margin-top: -15rem;
+  background-color: var(--light);
+  border-radius: 2rem;
+  padding-bottom: 11rem;
+}
 
+.text_plan {
+  margin-top: 4rem;
+  color: var(--light);
+}
+.text_plan > p {
+  line-height: 1.7;
+}
+.strategic_planning .row {
+  background-color: var(--primary);
+}
 /* ---END------strategic_planning---------------- */
 
 /* --------testimonials---------------- */
@@ -460,5 +478,8 @@ footer {
   }
   .text_about {
     width: 100%;
+  }
+  .phone_demo > img {
+    width: 60%;
   }
 }
