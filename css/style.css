@@ -29,7 +29,9 @@ body {
 }
 
 /*-------HEADER-------*/
-
+#site_header {
+  background-color: var(--secondary);
+}
 header {
   height: 70px;
 }
